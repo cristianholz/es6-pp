@@ -1,0 +1,33 @@
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+    font-family: sans-serif;
+}
+
+input, textarea, select {
+    outline: 0;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+p, ul, ol {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,83 @@
+extends ../layout/base
+
+block content
+	.transition-bg
+	section.header
+		.container-box
+			#nav-icon3
+				span
+				span
+				span
+				span
+
+			nav.menu
+				a(href="/" alt="Sapatos") Sapatos
+				a(href="/" alt="Novidades") Novidades
+				a(href="/" alt="Quem Somos") Quem Somos
+				a(href="/" alt="Bazar") Bazar
+				a.link-mobile(href="/" alt="Minha conta") Minha conta
+
+			h1
+				a(href="/" alt="OWME")
+					img(src= path + "assets/logo.png" alt="OWME")
+
+			.box-conta
+				.box-busca
+					span Buscar
+					form(action="")
+						input(type="text" id="search" placeholder="Buscar por")
+						input(type="submit" id="search_submit")
+
+				a(href="/" alt="Minha conta") Minha conta
+				a(href="/" alt="Sacola") Sacola
+
+	section.main
+		.container-box
+
+			h2 Sapatos
+
+			.box-filtro
+				.select
+					select(name="")
+						option(value="Maior valor") Maior valor
+						option(value="Menor valor") Menor valor
+						option(value="Nome A-Z") Nome A-Z
+						option(value="Nome Z-A") Nome Z-A
+
+		#result(class="grid-produtos")
+
+		#root
+
+		p#pg-control
+
+		.paginacao
+			ul
+
+				li#behind(class="arrows prev")
+					a(href="/" alt="")
+						i(class="icon icon-left-open")
+
+				li.active
+					a(href="/" alt="") 1
+
+				li 
+					a(href="/" alt="") 2
+
+				li(class="arrows next")
+
+					a(href="/" alt="")
+						i(class="icon icon-right-open")
+		
+		.paginator
+		
+		
+		
+	
+    	
+
+
+
+
+
+
+
