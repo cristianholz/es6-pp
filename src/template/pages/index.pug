@@ -1,79 +1,77 @@
 extends ../layout/base
 
 block content
-	.transition-bg
-	section.header
-		.container-box
-			#nav-icon3
-				span
-				span
-				span
-				span
+    .transition-bg
+    section.header
+        .container-box
+            #nav-icon3
+                span
+                span
+                span
+                span
 
-			nav.menu
-				a(href="/" alt="Sapatos") Sapatos
-				a(href="/" alt="Novidades") Novidades
-				a(href="/" alt="Quem Somos") Quem Somos
-				a(href="/" alt="Bazar") Bazar
-				a.link-mobile(href="/" alt="Minha conta") Minha conta
+            nav.menu
+                a(href="/" alt="Sapatos") Sapatos
+                a(href="/" alt="Novidades") Novidades
+                a(href="/" alt="Quem Somos") Quem Somos
+                a(href="/" alt="Bazar") Bazar
+                a.link-mobile(href="/" alt="Minha conta") Minha conta
 
-			h1
-				a(href="/" alt="OWME")
-					img(src= path + "assets/logo.png" alt="OWME")
+            h1
+                a(href="/" alt="OWME")
+                    img(src= path + "assets/logo.png" alt="OWME")
 
-			.box-conta
-				.box-busca
-					span Buscar
-					form(action="")
-						input(type="text" id="search" placeholder="Buscar por")
-						input(type="submit" id="search_submit")
+            .box-conta
+                .box-busca
+                    span Buscar
+                    form(action="")
+                        input(type="text" id="search" placeholder="Buscar por")
+                        input(type="submit" id="search_submit")
 
-				a(href="/" alt="Minha conta") Minha conta
-				a(href="/" alt="Sacola") Sacola
+                a(href="/" alt="Minha conta") Minha conta
+                a(href="/" alt="Sacola") Sacola
 
-	section.main
-		.container-box
+    section.main
+        .container-box
 
-			h2 Sapatos
+            h2 Sapatos
 
-			.box-filtro
-				.select
-					select(name="")
-						option(value="Maior valor") Maior valor
-						option(value="Menor valor") Menor valor
-						option(value="Nome A-Z") Nome A-Z
-						option(value="Nome Z-A") Nome Z-A
+            .box-filtro
+                .select
+                    select(name="")
+                        option(value="Maior valor") Maior valor
+                        option(value="Menor valor") Menor valor
+                        option(value="Nome A-Z") Nome A-Z
+                        option(value="Nome Z-A") Nome Z-A
 
-		#result(class="grid-produtos")
+        #result(class="grid-produtos")
+       
+        .paginacao
+            ul
 
-		#root
+                li#behind(class="arrows prev")
+                    a(href="/" alt="")
+                        i(class="icon icon-left-open")
 
-		p#pg-control
+                li.active
+                    a(href="/" alt="") 1
 
-		.paginacao
-			ul
+                li
+                    a(href="/" alt="") 2
 
-				li#behind(class="arrows prev")
-					a(href="/" alt="")
-						i(class="icon icon-left-open")
+                li(class="arrows next")
 
-				li.active
-					a(href="/" alt="") 1
+                    a(href="/" alt="")
+                        i(class="icon icon-right-open")
 
-				li 
-					a(href="/" alt="") 2
+      
+        
 
-				li(class="arrows next")
 
-					a(href="/" alt="")
-						i(class="icon icon-right-open")
-		
-		.paginator
-		
-		
-		
-	
-    	
+
+
+
+
 
 
 

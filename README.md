@@ -1,29 +1,31 @@
 
 ```bash
-yarn install
+npm install
 ```
 
 
 ### Run project
 
 ```bash
-yarn dev
+gulp dev
 ```
 
 ### Build project
 
 ```bash
-yarn build
+gulp build
 ```
 
 ### Optimize SVG
 
 ```bash
-yarn svg
+gulp svg
 ```
 
 ### Clean project
 
 ```bash
-yarn reset
+gulp reset
 ```
+
+
